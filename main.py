@@ -1,5 +1,5 @@
 import sqlite3 
-from Employee import Employee
+from employee import Employee
 # conn = sqlite3.connect(':memory:')
 conn = sqlite3.connect('emplyees.db')
 c = conn.cursor()
